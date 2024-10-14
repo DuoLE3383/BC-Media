@@ -6,11 +6,11 @@
         "phone": "(XXX) XXX-XXXX",
         "picture": "%PUBLIC_URL%/logo.png",
         "x_title": "BC Media Entertainment",
-        "job1": "Networks",
-        "job2": "Multimedia Solutions",
+        "job1": "Multimedia Solutions",
+        "job2": "BC Media Networks",
         "description": "BC Media Entertainment",
         "summary": "based in HCM City, Viet Nam.",
-        "keywords": "",
+        "keywords": "BC Media",
         "url": "",
         "location": {
             "address": "Vo Truong Toan",
@@ -83,7 +83,7 @@
     ],
     "education": [
         {
-            "institution": "University",
+            "institution": "BC Media",
             "area": "",
             "studyType": "",
             "startDate": "2024-01-08",
