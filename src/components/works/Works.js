@@ -8,7 +8,7 @@ import './Works.css';
 // Import ../../assets/recentprojects/
 import Portfolio from '../../assets/recentprojects/1.svg';
 import Veritru from '../../assets/recentprojects/2.svg';
-import Lofo from '../../assets/recentprojects/lofo.jpg';
+import Lofo from '../../assets/recentprojects/lofo.svg';
 import Startup from '../../assets/recentprojects/3.svg';
 import Lacalle from '../../assets/recentprojects/Welcome.svg';
 const useStyles = makeStyles((theme) => ({
@@ -40,7 +40,7 @@ export const Works = () => {
       title: 'Giá trị cốt lõi', 
       description: `Sáng tạo: Tạo ra những sản phẩm độc đáo và khác biệt`,
       alter: 'Chất lượng: Cam kết về chất lượng trong từng sản phẩm và dịch vụ',
-      // image: `${Lofo}`,
+      image: `${Lofo}`,
     },
     { 
       id: 4,
