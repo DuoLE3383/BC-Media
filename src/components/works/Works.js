@@ -23,23 +23,23 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'Sale & Maketings', 
-      description: `8 years of sales and development for Mua&Ban - Muaban.net`,
-      alter: 'F-NFT Portfolio',
+      title: 'Tầm nhìn', 
+      description: `BC Media Entertainment hướng đến trở thành thương hiệu uy tín trong ngành giải trí, là nơi hội tụ của những ý tưởng sáng tạo và không gian nghệ thuật đột phá.`,
+      alter: 'BC Media',
       image: `${Portfolio}`,
     },
     { 
       id: 2,
-      title: 'Digital Marketing - Software Development', 
-      description: `6 years Branding, Design and Developing Business System`,
-      alter: 'Digital Marketing',
+      title: 'Sứ mệnh', 
+      description: `Chúng tôi cam kết mang lại giá trị thực cho đối tác và khán giả thông qua các dự án giải trí sáng tạo, đầy cảm hứng và gắn kết mọi người lại gần nhau hơn`,
+      alter: 'Multimedia Marketing',
       image: `${Veritru}`,
     },
     { 
       id: 3,
-      title: 'HCMC Conservatory of Music', 
-      description: `Graduated from Ho Chi Minh City Conservatory of Music 2003`,
-      alter: 'F-NFT Project',
+      title: 'Giá trị cốt lõi', 
+      description: `Sáng tạo: Tạo ra những sản phẩm độc đáo và khác biệt`,
+      alter: 'Chất lượng: Cam kết về chất lượng trong từng sản phẩm và dịch vụ',
       // image: `${Lofo}`,
     },
     { 
@@ -51,9 +51,9 @@ export const Works = () => {
     },
     { 
       id: 5,
-      title: 'Blockchain Executive', 
-      description: `7 years of development, financial, training, mining, securities, solutions`,
-      alter: 'Blockchain Executive',
+      title: 'Tận tâm', 
+      description: `Luôn đặt khách hàng là trung tâm trong mọi hoạt động`,
+      alter: 'Phát triển bền vững: Xây dựng giá trị lâu dài cho cộng đồng và xã hội',
       image: `${Lacalle}`,
     },
   ]);

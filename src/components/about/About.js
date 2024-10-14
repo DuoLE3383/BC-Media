@@ -20,8 +20,7 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  marketing & blockchain. I'm always down for something new and challenging!`;
+  const aboutme = `BC Media Entertainment tự hào là đơn vị hàng đầu trong lĩnh vực giải trí và truyền thông kỹ thuật số. Với sứ mệnh kết nối, sáng tạo và mang đến những trải nghiệm giải trí đỉnh cao, chúng tôi không ngừng phát triển và đa dạng hóa các sản phẩm, dịch vụ của mình để đáp ứng nhu cầu ngày càng cao của khách hàng.`;
   return (
     <section id="about">
       <Container component="main" className={classes.main} maxWidth="md">

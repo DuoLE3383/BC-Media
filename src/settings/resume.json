@@ -29,31 +29,31 @@
             },
             {
                 "network": "LinkedIn",
-                "username": "F-NFT",
-                "url": "https://www.linkedin.com/in/f-nft-project-887624231/",
+                "username": "BC Media",
+                "url": "",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "F-NFT",
-                "url": "https://docs.f-nft.us/f-nft-project",
+                "username": "BC Media",
+                "url": "",
                 "x_icon": "fab fa-github"
             },
             {
                 "network": "GitLab",
-                "username": "F-NFT",
-                "url": "https://duongle.org/",
+                "username": "BC Media",
+                "url": "",
                 "x_icon": "fab fa-gitlab"
             },
             {
                 "network": "Telegram",
-                "username": "CryptoCould9",
-                "url": "https://t.me/cryptocloud9_io",
+                "username": "BC Media",
+                "url": "",
                 "x_icon": "fab fa-telegram-plane"
             },
             {
                 "network": "Discord",
-                "username": "f-nft",
+                "username": "BC Media",
                 "url": "https://discord.gg/GZQpHgd78N",
                 "x_icon": "fab fa-discord"
             }
@@ -63,30 +63,30 @@
         {
             "company": "Company",
             "position": "President",
-            "website": "https://docs.f-nft.us/f-nft-project/",
-            "startDate": "2021-01-01",
-            "endDate": "2026-01-01",
-            "summary": "F-NFT Project",
+            "website": "",
+            "startDate": "2024-01-08",
+            "endDate": "",
+            "summary": "BC Media",
             "highlights": ["Started the company"]
         }
     ],
     "volunteer": [
         {
             "organization": "Organization",
-            "position": "Founder",
-            "website": "https://duongle.org/",
-            "startDate": "2021-01-01",
-            "endDate": "2026-01-01",
-            "summary": "Revolution Of Fashion",
+            "position": "BC Media",
+            "website": "",
+            "startDate": "2024-01-08",
+            "endDate": "",
+            "summary": "Nơi hội tụ của sáng tạo, công nghệ và những trải nghiệm giải trí đột phá",
             "highlights": ["METAVERSE AND BLOCKCHAIN"]
         }
     ],
     "education": [
         {
             "institution": "University",
-            "area": "Blockchain Development",
-            "studyType": "Senior Research",
-            "startDate": "2016-01-01",
+            "area": "",
+            "studyType": "",
+            "startDate": "2024-01-08",
             "endDate": "2021-01-01",
             "gpa": "",
             "courses": [""]
@@ -104,16 +104,16 @@
         {
             "name": "Publication",
             "publisher": "Company",
-            "releaseDate": "2021-10-01",
-            "website": "https://duongle.org/",
-            "summary": "Description..."
+            "releaseDate": "2024-10-01",
+            "website": "",
+            "summary": "Description"
         }
     ],
     "skills": [
         {
-            "name": "Blockchain Development",
-            "level": "Senior Developer",
-            "keywords": ["Blockchain", "Smart Contract", "NFT"]
+            "name": "",
+            "level": "",
+            "keywords": [""]
         }
     ],
     "languages": [
@@ -138,8 +138,8 @@
     ],
     "references": [
         {
-            "name": "F-NFT",
-            "reference": "Reference..."
+            "name": "BC Media",
+            "reference": "Chúng tôi cam kết mang đến những sản phẩm và dịch vụ chất lượng cao, từ việc triển khai chiến lược marketing đến sản xuất nội dung đa phương tiện, giúp doanh nghiệp nâng cao nhận diện thương hiệu và tiếp cận khách hàng một cách hiệu quả"
         }
     ]
 }
