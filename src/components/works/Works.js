@@ -6,10 +6,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/1.gif';
-import Veritru from '../../assets/recentprojects/2.gif';
+import Portfolio from '../../assets/recentprojects/1.svg';
+import Veritru from '../../assets/recentprojects/2.svg';
 import Lofo from '../../assets/recentprojects/lofo.jpg';
-import Startup from '../../assets/recentprojects/3.gif';
+import Startup from '../../assets/recentprojects/3.svg';
 import Lacalle from '../../assets/recentprojects/Welcome.svg';
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -44,9 +44,9 @@ export const Works = () => {
     },
     { 
       id: 4,
-      title: '3D, 2D Graphics Design', 
-      description: `5 years Design Branding, Webdding, Ecommerce, Advertising`,
-      alter: 'Graphics Design',
+      title: 'Công nghệ', 
+      description: `Ứng dụng công nghệ tiên tiến để tối ưu hóa mọi hoạt động`,
+      alter: 'Multimedia ',
       image: `${Startup}`,
     },
     { 

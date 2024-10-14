@@ -6,12 +6,12 @@
   box-sizing: border-box;
 }
 ::-moz-selection {
-  background: #00bfbf;
+  background: #0023bf;
   color: #fafafa;
   text-shadow: none;
 }
 ::selection {
-  background: #00bfbf;
+  background: #bf00af;
   color: #fafafa;
   text-shadow: none;
 }
