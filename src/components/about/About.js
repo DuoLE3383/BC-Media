@@ -21,7 +21,7 @@ export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
   const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  marketing & blockchain. I'm always down for something new and challenging!
+                  marketing & blockchain. I'm always down for something new and challenging!`;
   return (
     <section id="about">
       <Container component="main" className={classes.main} maxWidth="md">
