@@ -29,8 +29,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const Contact = () => {
   const classes = useStyles();
-  const greetings = "Rất Hân Hạnh Được Lắng Nghe Ý Kiến.";
-
+  const greetings = "Luôn Lắng Nghe.";
   const form = useRef();
 
   const sendEmail = (e) => {
