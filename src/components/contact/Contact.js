@@ -35,7 +35,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_8bezxog', 'template_jmsk313', form.current, 'knwNTK4YU4K30HYMd')
+    emailjs.sendForm('service_gf7l90j', 'template_xz6xn7k', form.current, 'hP24LasgV_56uXcqx')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -50,8 +50,6 @@ export const Contact = () => {
     })
     e.target.reset()
   };
-
-
 
     return (
       <section id="contact">
