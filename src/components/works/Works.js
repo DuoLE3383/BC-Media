@@ -17,7 +17,25 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '3em',
     marginBottom: "auto",
   },
+  project: {
+    display: 'flex',
+    marginBottom: '2rem',
+    alignItems: 'center',
+  },
+  imgWrapper: {
+    flex: '1',
+    marginRight: '2rem',
+  },
+  contentWrapper: {
+    flex: '2',
+  },
+  img: {
+    maxWidth: '100%',
+    height: 'auto',
+    borderRadius: '8px',
+  }
 }));
+
 export const Works = () => {
   const classes = useStyles();
   const [projects, setProjects] = useState([
@@ -61,11 +79,11 @@ export const Works = () => {
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
-          <div className="project" key={ project.id }>
-            <div className="__img_wrapper">
-              <img src={ project.image } alt={ project.alter }/>
+          <div className={classes.project} key={ project.id }>
+            <div className={classes.imgWrapper}>
+              <img src={ project.image } alt={ project.alter } className={classes.img}/>
             </div>
-            <div className="__content_wrapper">
+            <div className={classes.contentWrapper}>
               <h3 className="title">
                 <TextDecrypt text={ project.id + '. ' + project.title } />
               </h3>
