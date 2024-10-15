@@ -7,9 +7,9 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 // Import ../../assets/recentprojects/
 import Portfolio from '../../assets/recentprojects/1.gif';
-import Veritru from '../../assets/recentprojects/2.gif';
-import Lofo from '../../assets/recentprojects/Welcome.gif';
-import Startup from '../../assets/recentprojects/3.gif';
+import Veritru from '../../assets/recentprojects/3.gif';
+import Lofo from '../../assets/recentprojects/2.gif';
+import Startup from '../../assets/recentprojects/4.gif';
 import Lacalle from '../../assets/recentprojects/Welcome.gif';
 const useStyles = makeStyles((theme) => ({
   main: {

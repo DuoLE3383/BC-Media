@@ -31,7 +31,7 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      href= {`${ResumePDF}`}
+      href= {`https://forms.gle/h2ZxKp39RCKZprJB6`}
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}
