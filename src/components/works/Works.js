@@ -17,27 +17,27 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '3em',
     marginBottom: "auto",
   },
-  project: {
-    maxWidth: '100vw',
-    display: 'flex',
-    marginBottom: '2rem',
-    alignItems: 'center',
-  },
-  imgWrapper: {
-    maxWidth: '100vw',
-    flex: '1',
-    marginRight: '2rem',
-  },
-  contentWrapper: {
-    maxWidth: '100vw',
-    flex: '2',
-  },
-  img: {
-    maxWidth: '100%',
-    maxWidth: '100vw',
-    height: 'auto',
-    borderRadius: '8px',
-  }
+  // project: {
+  //   maxWidth: '100vw',
+  //   display: 'flex',
+  //   marginBottom: '2rem',
+  //   alignItems: 'center',
+  // },
+  // imgWrapper: {
+  //   maxWidth: '100vw',
+  //   flex: '1',
+  //   marginRight: '2rem',
+  // },
+  // contentWrapper: {
+  //   maxWidth: '100vw',
+  //   flex: '2',
+  // },
+  // img: {
+  //   maxWidth: '100%',
+  //   maxWidth: '100vw',
+  //   height: 'auto',
+  //   borderRadius: '8px',
+  // }
 }));
 
 export const Works = () => {
@@ -83,11 +83,11 @@ export const Works = () => {
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
-          <div className={classes.project} key={ project.id }>
-            <div className={classes.imgWrapper}>
+          <div className="project" key={ project.id }>
+            <div className="__img_wrapper">
               <img src={ project.image } alt={ project.alter } className={classes.img}/>
             </div>
-            <div className={classes.contentWrapper}>
+            <div className="__content_wrapper">
               <h3 className="title">
                 <TextDecrypt text={ project.id + '. ' + project.title } />
               </h3>
