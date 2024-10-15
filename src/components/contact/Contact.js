@@ -54,16 +54,7 @@ export const Contact = () => {
       title: "You sent an email!",
       showConfirmButton: true,
       timer: 1500,
-    }), (error) => {
-      console.log(error.text);
-      Swal.fire({
-        position: 'center',
-        icon: 'error',
-        title: 'Gửi email thất bại!',
-        text: 'Xin hãy thử lại sau.',
-        showConfirmButton: true,
-      });
-    };
+    })
     e.target.reset();
   };
 
