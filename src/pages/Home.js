@@ -39,7 +39,7 @@ export const Home = () => {
         </Hidden>
         <Resume />
       </div>
-      <SideNavbar />
+      {/* <SideNavbar /> */}
       <Works />
       <About />
       <Contact />
