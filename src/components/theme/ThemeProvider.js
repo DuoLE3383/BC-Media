@@ -7,8 +7,8 @@ export const ThemeContext = createContext();
 export const ThemeProvider = ({ children }) => {
     const getInitialMode = () => {
         if (typeof localStorage === "undefined") return true;
-        const isReturningUser = "dark" in localStorage;
-        const savedMode = JSON.parse(localStorage.getItem("dark"));
+        const isReturningUser = "light" in localStorage;
+        const savedMode = JSON.parse(localStorage.getItem("light"));
         const userPrefersDark = getPrefColorScheme();
         if (isReturningUser) {
             return savedMode;
@@ -19,16 +19,16 @@ export const ThemeProvider = ({ children }) => {
     const getPrefColorScheme = () => {
         if (!window.matchMedia) return;
 
-        return window.matchMedia("(prefers-color-scheme: dark)").matches;
+        return window.matchMedia("(prefers-color-scheme: light)").matches;
     };
 
     const [theme, setTheme] = useState(getInitialMode() ? "dark" : "light");
 
     const toggleTheme = () => {
-        if (theme === "light") {
-            setTheme("dark");
-        } else {
+        if (theme === "dark") {
             setTheme("light");
+        } else {
+            setTheme("dark");
         }
     };
 
