@@ -18,19 +18,23 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "auto",
   },
   project: {
+    maxWidth: '100vw',
     display: 'flex',
     marginBottom: '2rem',
     alignItems: 'center',
   },
   imgWrapper: {
+    maxWidth: '100vw',
     flex: '1',
     marginRight: '2rem',
   },
   contentWrapper: {
+    maxWidth: '100vw',
     flex: '2',
   },
   img: {
     maxWidth: '100%',
+    maxWidth: '100vw',
     height: 'auto',
     borderRadius: '8px',
   }
