@@ -7,7 +7,7 @@ import {
   ResumeIcon
 } from '../content/ResumeButton';
 
-const ResumePDF = "https://forms.gle/h2ZxKp39RCKZprJB6"
+// const ResumePDF = "https://forms.gle/h2ZxKp39RCKZprJB6"
 const useStyles = makeStyles((theme) => ({
   footerText: {
     position: 'fixed',
