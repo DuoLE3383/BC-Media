@@ -54,8 +54,7 @@ export const Contact = () => {
       title: "You sent an email!",
       showConfirmButton: true,
       timer: 1500,
-    });
-    (error) => {
+    }), (error) => {
       console.log(error.text);
       Swal.fire({
         position: 'center',
