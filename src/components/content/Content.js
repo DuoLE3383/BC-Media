@@ -31,11 +31,11 @@ export const Content = () => {
   return (
     <Container component="main" className={classes.main} maxWidth="md">
       <div className={classes.heading}>
-        
+      <img className={classes.img} src={logo} alt="Logo"/>
+
         <Typography variant="h4" component="h3">
             <TextDecrypt text={`${FirstName} ${LastName}`} />
         </Typography>
-        <img className={classes.img} src={logo} alt="Logo"/>
         <Typography variant="h1" component="h1" className={classes.jobs}>
             <TextDecrypt text={`${Resume.basics.job1}`} />
             <TextDecrypt text={`${Resume.basics.job2}`} />
