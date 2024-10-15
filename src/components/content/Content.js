@@ -4,7 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
 import Resume from "../../settings/resume.json";
 import { FirstName, LastName } from "../../utils/getName";
-import { logo } from "../../assets/recentprojects/Welcome.gif";
+import logo from "../../assets/recentprojects/Welcome.gif";
+
 const useStyles = makeStyles((theme) => ({
   main: {
     maxWidth: '100vw',
