@@ -11,7 +11,7 @@ import { SpeedDials } from '../components/speedDial/SpeedDial';
 import { SideNavbar } from '../components/nav/SideNavbar';
 import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
-import { Logo } from '../components/logo/Logo';
+import Logo from '../assets/recentprojects/Welcome.gif';
 // import { Contact } from '../components/contact/Contact';
 
 const useStyles = makeStyles(() => ({
@@ -40,6 +40,17 @@ const useStyles = makeStyles(() => ({
     overflow: 'auto',  // Thêm cuộn nếu nội dung quá lớn
     alignItems: 'center', //lignItems: 'center', //
   },
+  img: {
+    maxWidth: '39%',
+    height: 'auto',
+    alignItems: 'right',
+    textAlign: 'right',
+    // borderRadius: '8px',
+    // Đặt Media Query tại đây
+    "@media (max-width: 150px)": {
+      maxWidth: '150px', // Điều chỉnh kích thước hình ảnh khi chiều rộng màn hình nhỏ hơn 150px
+    }
+  }
 }));
 
 export const Home = () => {
@@ -47,13 +58,13 @@ export const Home = () => {
 
   return (
     <div className={classes.root} id="home">
+
       {/* Section 1: Home */}
       <div className={classes.section}>
         <div className={classes.contentWrapper}>
           <DisplacementSphere />
           <LogoLink />
           <Content />
-          <ThemeToggle />
           <Hidden smDown>
             <SocialIcons />
           </Hidden>
@@ -67,6 +78,8 @@ export const Home = () => {
       <div className={classes.section}>
         <div className={classes.contentWrapper}>
           <Resume />
+          <ThemeToggle />
+
         </div>
       </div>
 
