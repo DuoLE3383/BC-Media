@@ -16,6 +16,7 @@ import { Logo } from '../components/logo/Logo';
 
 const useStyles = makeStyles(() => ({
   root: {
+    alignItems: 'top',
     display: 'block',
     height: '100vh',
     overflowY: 'scroll',  // Bật cuộn dọc
