@@ -8,16 +8,36 @@ import { ThemeToggle } from '../components/theme/ThemeToggle';
 import { Resume } from '../components/resume/Resume';
 import { SocialIcons } from '../components/content/SocialIcons';
 import { SpeedDials } from '../components/speedDial/SpeedDial';
-// import { SideNavbar } from '../components/nav/SideNavbar';
+import { SideNavbar } from '../components/nav/SideNavbar';
 import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
-import { Contact } from '../components/contact/Contact';
+import { Logo } from '../components/logo/Logo';
+// import { Contact } from '../components/contact/Contact';
 
 const useStyles = makeStyles(() => ({
   root: {
-    display: 'flex',
-    flexDirection: 'column',
-    minHeight: '100vh',
+    display: 'block',
+    height: '100vh',
+    overflowY: 'scroll',  // Bật cuộn dọc
+    scrollSnapType: 'y mandatory',  // Kích hoạt snap scrolling theo chiều dọc
+    scrollBehavior: 'smooth',  // Cuộn mượt mà
+  },
+  section: {
+    minHeight: 'auto',  // Sử dụng min-height thay vì height
+    scrollSnapAlign: 'start',  // Căn chỉnh phần đầu của mỗi phần khi cuộn tới
+    display: 'flex',  // Căn chỉnh nội dung trong mỗi phần
+    justifyContent: 'center',  // Căn giữa nội dung theo chiều ngang
+    alignItems: 'center',  // Căn giữa nội dung theo chiều dọc
+    padding: '2rem',  // Khoảng cách nội dung so với viền
+    boxSizing: 'border-box',  // Đảm bảo padding không ảnh hưởng đến chiều cao thực tế
+    // position: 'relative',  // Đảm bảo vị trí của nội dung không bị chèn lên nhau
+    overflow: 'hidden',  // Đảm bảo rằng nội dung không tràn ra ngoài
+  },
+  contentWrapper: {
+    zIndex: 1,  // Đảm bảo nội dung hiển thị phía trên các lớp khác
+    maxWidth: '100%',  // Đảm bảo nội dung không vượt quá chiều rộng của container
+    overflow: 'auto',  // Thêm cuộn nếu nội dung quá lớn
+    alignItems: 'center', //lignItems: 'center', //
   },
 }));
 
@@ -25,24 +45,53 @@ export const Home = () => {
   const classes = useStyles();
 
   return (
-    <>
-      <div className={classes.root} id="home">
-        <DisplacementSphere />
-        <LogoLink />
-        <Content />
-        <ThemeToggle />
-        <Hidden smDown>
-          <SocialIcons />
-        </Hidden>
-        <Hidden mdUp>
-          <SpeedDials />
-        </Hidden>
-        <Resume />
+    <div className={classes.root} id="home">
+      {/* Section 1: Home */}
+      <div className={classes.section}>
+        <div className={classes.contentWrapper}>
+          <DisplacementSphere />
+          <LogoLink />
+          <Content />
+          <ThemeToggle />
+          <Hidden smDown>
+            <SocialIcons />
+          </Hidden>
+          <Hidden mdUp>
+            <SpeedDials />
+          </Hidden>
+        </div>
       </div>
-      {/* <SideNavbar /> */}
-      <Works />
-      <About />
-      <Contact />
-    </>
+
+      {/* Section 2: Resume */}
+      <div className={classes.section}>
+        <div className={classes.contentWrapper}>
+          <Resume />
+        </div>
+      </div>
+
+      {/* Section 3: Works */}
+      <div className={classes.section}>
+        <div className={classes.contentWrapper}>
+          <Works />
+        </div>
+      </div>
+
+      {/* Section 4: About */}
+      <div className={classes.section}>
+        <div className={classes.contentWrapper}>
+          <About />
+        </div>
+      </div>
+
+      {/* Section 5: Contact */}
+      <div className={classes.section}>
+        <div className={classes.contentWrapper}>
+            <img className={classes.img} src= {Logo} alt='logo'/>
+        </div>
+      </div>
+
+      {/* Side Navbar */}
+      <SideNavbar />
+    </div>
   );
 };

@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react-hooks/rules-of-hooks */
 import React from "react";
-import { Typography } from "@material-ui/core";
+// import { Typography } from "@material-ui/core";
 import { useState } from "react";
-
 import "./SideNavbar.css";
 
 export const SideNavbar = () => {
@@ -15,7 +14,7 @@ export const SideNavbar = () => {
         onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}
       >
-        <Typography>
+        {/* <Typography>
           Home
         </Typography>
       </a>
@@ -41,8 +40,9 @@ export const SideNavbar = () => {
       >
         <Typography>
           Contact
-        </Typography>
+        </Typography> */}
       </a>
+
     </nav>
   );
 };
