@@ -12,6 +12,8 @@ import { SideNavbar } from "../components/nav/SideNavbar";
 import { Works } from "../components/works/Works";
 import { About } from "../components/about/About";
 import Logo from "../assets/recentprojects/Welcome.gif";
+import { Link } from 'react-router-dom';
+
 // import { Contact } from '../components/contact/Contact';
 
 const useStyles = makeStyles(() => ({
@@ -103,6 +105,7 @@ export const Home = () => {
       </div>
 
       {/* Side Navbar */}
+      <p>Learn more about how we handle your data by reading our <Link to="/privacy">Privacy Policy</Link>.</p>
       <SideNavbar />
     </div>
   );

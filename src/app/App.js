@@ -5,7 +5,7 @@ import { HelmetMeta } from "./HelmetMeta";
 import { ThemeProvider } from "../components/theme/ThemeProvider";
 import { CssBaseline } from "@material-ui/core";
 import { logCredits } from "../utils/logCredits";
-
+import PrivacyPage from '../pages/Privacy';
 import { Home } from "../pages/Home";
 
 const Resume = lazy(() => import("../pages/Resume"));
@@ -20,9 +20,10 @@ export const App = () => {
         <Router>
           <HelmetMeta />
           <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/resume" component={Resume} />
-              <Route path="*" component={PageNotFound} />
+            <Route path="/" exact component={Home} />
+            <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/resume" component={Resume} />
+            <Route path="*" component={PageNotFound} />
           </Switch>
         </Router>
       </ThemeProvider>
