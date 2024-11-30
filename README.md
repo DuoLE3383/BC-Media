@@ -1,58 +1,47 @@
-# Personal Portfolio Website built with React v16
+Thảo Hà LLC - BC Media Entertainments
+Welcome to the official repository of Thảo Hà LLC - BC Media Entertainments. We are passionate about delivering top-quality media, sports, and entertainment content to fans worldwide. Our innovative approach bridges communities and inspires fandom through dynamic platforms and creative storytelling.
+🌟 About Us
+Thảo Hà LLC - BC Media Entertainments is dedicated to:
 
-[![Screenshot](/public/social-image.png?raw=true)](https://taniyow.vercel.app)
+📰 Promoting daily sports news (Celebrities, Flash News, Racing News, Boxing, NHL, MLB, Hockey, MMA, NBA, Music, etc.).
+🎭 Empowering creators with entertainment tools and platforms.
+🌐 Enhancing fan engagement through interactive and data-driven web experiences.
+Our mission is to create a dynamic, user-centered media ecosystem that connects enthusiasts across genres.
 
-[![Website duongle.org](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://duongle.org)
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/taniyow/taniyow-portfolio-react/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/taniyow/taniyow-portfolio-react/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+🛠 Projects
+1️⃣ BCMedia Website
+Stack: React.js, Tailwind CSS, Node.js.
+Features:
+Interactive content hub for sports and entertainment.
+Dynamic components: About, Contact, Resume, and Work.
+2️⃣ Knockout Zone
+Purpose: MMA fan engagement and clan insights.
+Features: Fighter stats, event recaps, and discussion forums.
+3️⃣ Red Chronicles
+Description: A dedicated fan page showcasing the latest UFC news and analysis.
+Tools: SEO Optimization, WordPress customization, and Analytics integration.
+🎨 Design Philosophy
+Our branding embraces a bold red and black color scheme, symbolizing strength, energy, and resilience.
 
-A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!. View demo at [https://http://vercel.com//](https://taniyow.vercel.app)
+📈 Analytics & SEO
+We integrate tools such as:
 
--   built using [React](https://reactjs.org)
--   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
--   styled with [Material-UI](https://material-ui.com)
--   deployed on vercel [Vercel](https://vercel.com)
+Google Analytics (GA) for real-time traffic monitoring.
+AIO SEO Automation to enhance post visibility.
+🚀 Roadmap
+Enhance Media Interactivity:
+Video/live-streaming support.
+Personalized user feeds.
+Expand Community Features:
+Comment sections for fan interaction.
+User registration for tailored content.
+Integrate Sports News Aggregator:
+Daily updates on NHL, MLB, Hockey, NBA, and MMA.
+🤝 Collaborations
+We welcome opportunities to partner with creators, designers, and sports enthusiasts. Let’s redefine entertainment together!
 
-Special thanks to [Jo Lienhoop](https://github.com/JoHoop), and [Cody Bennett](https://github.com/CodyJasonBennett) for the inspiration.
+📬 Contact Us
+Feel free to reach out via our official communication channels:
 
-## Features
-
--   All of the personal information is populated from the resume.json file following the [JSON Resume](https://jsonresume.org) standard, a community driven open source initiative to create a JSON based standard for resumes. Discover the official schema [here](https://jsonresume.org/schema).
--   The toggle/switch for the dark mode syncs its state to the local storage.
-
-#### Coming soon
-
--   Two beautiful resume page templates generated based on the data in the resume.json file -- a modern approach of the traditional printed CV.
--   Rich Google search results using structured data with [json-ld.org/](https://json-ld.org).
-
-## Customization
-
-Feel free to fork this project and customize it with your own information and style.
-
-Refer to the [Material UI docs](https://material-ui.com/customization/theming) for guidance on how to quickly customize the themes, components and colors to suit your tastes.
-
-If you improve the app in any way a pull request would be very much appreciated ✌️
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm install`
-
-to install the dependencies.
-
-### `npm start`
-
-to run the app in the development mode at [http://localhost:3000](http://localhost:3000)<br />
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Email: support@thaohallc.com
+Website: [BCMedia Entertainments](https://thaohallc.com/)
