@@ -8,7 +8,9 @@ Thảo Hà LLC - BC Media Entertainments is dedicated to:
 🌐 Enhancing fan engagement through interactive and data-driven web experiences.
 Our mission is to create a dynamic, user-centered media ecosystem that connects enthusiasts across genres.
 
-🛠 Projects
+🛠 Projects:
+
+
 1️⃣ BCMedia Website
 Stack: React.js, Tailwind CSS, Node.js.
 Features:
