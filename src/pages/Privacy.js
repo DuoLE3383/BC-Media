@@ -85,8 +85,8 @@ const PrivacyPage = () => {
           If you have questions or comments about this policy, you may contact us at:
         </p>
         <p>
-          <strong>Email:</strong> support@yourcompany.com<br />
-          <strong>Address:</strong> 123 Privacy St, Data City, DS 56789
+          <strong>Email:</strong> info@thaohallc.com<br />
+          <strong>Address:</strong> 26 Vo Truong Toan
         </p>
       </section>
     </div>

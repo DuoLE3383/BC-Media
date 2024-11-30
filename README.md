@@ -49,5 +49,5 @@ We welcome opportunities to partner with creators, designers, and sports enthusi
 📬 Contact Us
 Feel free to reach out via our official communication channels:
 
-Email: support@thaohallc.com
+Email: info@thaohallc.com
 Website: [BCMedia Entertainments](https://thaohallc.com/)
