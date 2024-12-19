@@ -54,7 +54,7 @@
             {
                 "network": "Discord",
                 "username": "BC Media",
-                "url": "https://discord.gg/GZQpHgd78N",
+                "url": "#",
                 "x_icon": "fab fa-discord"
             }
         ]
@@ -62,7 +62,7 @@
     "work": [
         {
             "company": "Company",
-            "position": "President",
+            "position": "Vice Founder",
             "website": "",
             "startDate": "2024-01-08",
             "endDate": "",

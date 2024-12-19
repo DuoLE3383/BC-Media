@@ -1,4 +1,4 @@
-// PrivacyPage.js
+// Privacy.js
 
 import React from 'react';
 

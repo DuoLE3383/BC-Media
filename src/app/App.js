@@ -1,6 +1,5 @@
-import React, { lazy } from "react";
-
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React, { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HelmetMeta } from "./HelmetMeta";
 import { ThemeProvider } from "../components/theme/ThemeProvider";
 import { CssBaseline } from "@material-ui/core";
@@ -12,20 +11,22 @@ const Resume = lazy(() => import("../pages/Resume"));
 const PageNotFound = lazy(() => import("../pages/PageNotFound"));
 
 export const App = () => {
-    logCredits();
+  logCredits();
 
-    return (
-      <ThemeProvider>
-        <CssBaseline />
-        <Router>
-          <HelmetMeta />
+  return (
+    <ThemeProvider>
+      <CssBaseline />
+      <Router>
+        <HelmetMeta />
+        <Suspense fallback={<div>Loading...</div>}>
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/privacy" element={<PrivacyPage />} />
-            <Route path="/resume" component={Resume} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/privacy" component={PrivacyPage} />
+            <Route exact path="/resume" component={Resume} />
             <Route path="*" component={PageNotFound} />
           </Switch>
-        </Router>
-      </ThemeProvider>
-    );
+        </Suspense>
+      </Router>
+    </ThemeProvider>
+  );
 };
