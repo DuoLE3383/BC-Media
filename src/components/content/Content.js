@@ -24,14 +24,12 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   img: {
-    maxWidth: "79%",
+    maxWidth: "59%",
     height: "auto",
     alignItems: "center",
     textAlign: "center",
-    // borderRadius: '8px',
-    // Đặt Media Query tại đây
     "@media (max-width: 150px)": {
-      maxWidth: "150px", // Điều chỉnh kích thước hình ảnh khi chiều rộng màn hình nhỏ hơn 150px
+      maxWidth: "150px", 
     },
   },
 }));
@@ -47,7 +45,7 @@ export const Content = () => {
         {/* <Typography variant="h4" component="h3">
           <TextDecrypt text={`${FirstName} ${LastName}`} />
         </Typography> */}
-        <Typography variant="h2" component="h2" className={classes.jobs}>
+        <Typography variant="h4" component="h4" className={classes.jobs}>
           <TextDecrypt text={`${Resume.basics.job1}`} />
           <TextDecrypt text={`${Resume.basics.job2}`} />
         </Typography>

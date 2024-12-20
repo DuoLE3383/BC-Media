@@ -103,7 +103,7 @@ const DisplacementSphere = (props) => {
         );
         const ambientLight = new AmbientLight(
             rgbToThreeColor("250 250 250"),
-            theme === "light" ? 0.8 : 0.1
+            theme === "light" ? 0.8 : 0.4
         );
 
         dirLight.position.z = 200;

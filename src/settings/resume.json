@@ -11,7 +11,7 @@
         "description": "BC Media Entertainment",
         "summary": "based in HCM City, Viet Nam.",
         "keywords": "BC Media",
-        "url": "",
+        "url": "https://thaohallc.com/",
         "location": {
             "address": "Vo Truong Toan",
             "postalCode": "700000",
@@ -22,39 +22,39 @@
         },
         "profiles": [
             {
-                "network": "Google",
+                "network": "Email",
                 "username": "thaohabcmedia@gmail.com",
                 "url": "mailto:thaohabcmedia@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
-                "network": "LinkedIn",
-                "username": "BC Media",
-                "url": "",
-                "x_icon": "fab fa-linkedin-in"
+                "network": "World",
+                "username": "World",
+                "url": "https://mysteryarea.com/",
+                "x_icon": "fab fa-globe"
             },
             {
-                "network": "GitHub",
-                "username": "BC Media",
-                "url": "",
-                "x_icon": "fab fa-github"
+                "network": "Celeb",
+                "username": "Celebrities",
+                "url": "https://celebritieshub.net/",
+                "x_icon": "fab fa-face-awesome"
             },
             {
                 "network": "GitLab",
                 "username": "BC Media",
-                "url": "",
+                "url": "https://celebritieshub.net/",
                 "x_icon": "fab fa-gitlab"
             },
             {
                 "network": "Telegram",
                 "username": "BC Media",
-                "url": "",
+                "url": "https://fantasticnews.net",
                 "x_icon": "fab fa-telegram-plane"
             },
             {
                 "network": "Discord",
                 "username": "BC Media",
-                "url": "#",
+                "url": "https://speedfan.club/",
                 "x_icon": "fab fa-discord"
             }
         ]

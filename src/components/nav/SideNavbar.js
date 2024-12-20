@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography } from "@material-ui/core";
+import { Typography, Button } from "@material-ui/core";
 import "./SideNavbar.css";
 import { StarIcon, DocumentIcon, Mystery, Superstar, Celebrities, SpeedFan, Human, Speed } from "./icons";
 
@@ -8,14 +8,14 @@ export const SideNavbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const externalLinks = [
-    { href: "https://incrediblefamous.com", label: "Incredible Famous", icon: <StarIcon />  },
-    { href: "https://fantasticnews.net", label: "Fantastic News", icon: <DocumentIcon />  },
-    { href: "https://mysteryarea.com", label: "Mystery Area", icon: <Mystery />  },
-    { href: "https://superstarfandom.com", label: "Superstar Fan Club", icon: <Superstar />  },
-    { href: "https://celebritieshub.net", label: "Celebrities Hub", icon: <Celebrities />  },
-    { href: "https://speedfan.club", label: "Speed Fan Club", icon: <SpeedFan />  },
-    { href: "https://humatl.com", label: "Humatl", icon: <Human />  },
-    { href: "https://speed.dhpplant.com", label: "Racing Nation", icon: <Speed />  },
+    { href: "https://incrediblefamous.com", label: "Incredible Famous", icon: <StarIcon /> },
+    { href: "https://fantasticnews.net", label: "Fantastic News", icon: <DocumentIcon /> },
+    { href: "https://mysteryarea.com", label: "Mystery Area", icon: <Mystery /> },
+    { href: "https://superstarfandom.com", label: "Superstar Fan Club", icon: <Superstar /> },
+    { href: "https://celebritieshub.net", label: "Celebrities Hub", icon: <Celebrities /> },
+    { href: "https://speedfan.club", label: "Speed Fan Club", icon: <SpeedFan /> },
+    { href: "https://humatl.com", label: "Humatl", icon: <Human /> },
+    { href: "https://speed.dhpplant.com", label: "Racing Nation", icon: <Speed /> },
   ];
 
   const toggleDropdown = () => {
@@ -41,12 +41,12 @@ export const SideNavbar = () => {
         <Typography>Contact</Typography>
       </a>
 
-      {/* "Our Platform" link that toggles dropdown menu */}
+      {/* "Our Platform" link with dropdown */}
       <a
         href="#our-platform"
         onClick={(e) => {
-          e.preventDefault();  // Prevent default link behavior
-          toggleDropdown();  // Toggle dropdown visibility
+          e.preventDefault();
+          toggleDropdown();
         }}
         className={activeNav === "#our-platform" ? "active" : ""}
       >
@@ -66,10 +66,21 @@ export const SideNavbar = () => {
                 onClick={() => setActiveNav(link.href)}
                 className={activeNav === link.href ? "active" : ""}
               >
-                {link.icon}  {/* Display icon here */}
+                {link.icon}
                 <Typography>{link.label}</Typography>
               </a>
             ))}
+          </div>
+
+          {/* Add a button inside the dropdown */}
+          <div className="menu-button">
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={() => alert("Button Clicked!")}
+            >
+              Click Me
+            </Button>
           </div>
         </div>
       )}

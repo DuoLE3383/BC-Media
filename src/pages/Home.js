@@ -19,8 +19,9 @@ import { Link } from 'react-router-dom';
 const useStyles = makeStyles(() => ({
   root: {
     alignItems: "top",
+    marginTop: "-15px",
     display: "block",
-    height: "100vh",
+    height: "110vh",
     overflowY: "scroll",
     scrollSnapType: "y mandatory",
     scrollBehavior: "smooth",
